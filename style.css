@@ -1,8 +1,25 @@
+header {
+    background-color: #218380;
+}
+h1 {
+    color: #ffffff;
+}
+header li {
+    display: inline-block;
+}
 body {
-    background-color: #ceab89;
+    background-color: #040F0F;
 }
 
 #about-me {
-    color: black;
+    color: #D9CAB3;
 }
-
+section {
+    display: inline-block; background-color: #DF2935;
+}
+h3 {
+    color:#ffffff;
+}
+* {
+    border-color: 2px #218380; 
+}
