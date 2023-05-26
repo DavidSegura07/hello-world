@@ -16,7 +16,14 @@ for(let i = 0; i< 10; i++){
     break;
   }
   else{
-    alert("Try again")
+    alert("Try again, Please put a number.")
+  }
+}
+
+function rateMyPage(){
+  let rating = prompt("How many stars would you rate my page?");
+  for (let i = 0; i < rating; i++){
+    document.write('<img src="star.png" />');
   }
 }
 

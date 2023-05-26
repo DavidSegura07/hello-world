@@ -27,6 +27,9 @@ nav li a:hover {
     text-decoration: underline;
     font-size: 22px;
   }
+  #rateMyPage{
+    shrink-width: 5px;
+  }
 body {
     background-color: #040F0F;
 }
@@ -49,7 +52,10 @@ section {
     display: inline-block; 
     background-color: #DF2935;
 }
-
+.lower-section {
+    display: inline-block;
+    width: 30%;
+}
 h3 {
     color:#ffffff;
     margin: 10px;
