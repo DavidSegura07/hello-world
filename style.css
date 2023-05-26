@@ -1,5 +1,6 @@
 header {
     background-color: #218380;
+    height: 150px;
 }
 h1 {
     color: #ffffff;
@@ -7,6 +8,25 @@ h1 {
 header li {
     display: inline-block;
 }
+nav li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  
+nav li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+nav li a:hover {
+    color: teal;
+    text-decoration: underline;
+    font-size: 22px;
+  }
 body {
     background-color: #040F0F;
 }
@@ -14,12 +34,24 @@ body {
 #about-me {
     color: #D9CAB3;
 }
-section {
-    display: inline-block; background-color: #DF2935;
+main {
+    width: 90%;
+    margin: 30px auto;
+    min-height: 700px;
 }
+#main-image {
+width: 600px;
+}
+main p {
+    text-align: center;
+}
+section {
+    display: inline-block; 
+    background-color: #DF2935;
+}
+
 h3 {
     color:#ffffff;
-}
-* {
-    border-color: 2px #218380; 
+    margin: 10px;
+    padding: 10px;
 }
