@@ -23,7 +23,7 @@ for(let i = 0; i< 10; i++){
 function rateMyPage(){
   let rating = prompt("How many stars would you rate my page?");
   for (let i = 0; i < rating; i++){
-    document.write('<img src="star.png" />');
+    document.write('<img class="rateMyPage" src="star.png" />');
   }
 }
 
