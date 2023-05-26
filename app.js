@@ -1,13 +1,19 @@
-alert ("HELLO!");
+alert("Car Enthusiast only!");
 
-let UserResponse = prompt("Do you like cars?");
-
-if (UserResponse=="yes"){
-    console.log("Huzzah! Cars are awesome");}
-    else if (UserResponse=="yeah")
-    {console.log("Hecks yeah, Cars are awesome.");}
-else {console.log("what?!")}
-
-function myfavoriteColor({
-    prompt(WHat's my favorite color?)
-})
+const userName = prompt("what is your name?");
+if (userName == "Kassie"){
+    document.write("Hi Teach!");
+  } else if (userName == "David") {
+    document.write("Hi " + userName + "!");
+  }else if (userName == "Luke") {
+    document.write("Hi " + userName + "!");
+  } else if (userName == "Adnan") {
+    document.write("Hi " + userName + "!");
+  } else if (userName == "Dexter") {
+    document.write("Hi " + userName + "!");
+  } else if (userName == "Tonya") {
+    document.write("Hi " + userName + "!");
+  }
+  else {
+    document.write("Welcome!");
+  }
